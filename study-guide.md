@@ -42,7 +42,7 @@
 - **학습 범위**: 1장 전체
 - **필수 인증 과제**: 
   - 스터디 자기소개와 학습 목표 작성하기
-  - 스크린샷: 자기소개와 목표 작성 내용
+  - 자기소개와 목표 작성 내용
 - **선택 심화 과제**:
   - 관심 분야와 스터디 기간 동안 만들어보고 싶은 LLM 앱 아이디어 공유
   - 인공지능과 관련된 자신의 경험이나 배경 공유
@@ -99,11 +99,10 @@
 ### 7일차: OpenAI API 대화와 구조화
 - **학습 범위**: 4.4~4.5절
 - **필수 인증 과제**: 
-  - 다음 중 하나 선택: 
-    - 멀티턴 대화 구현 (`openai_conversation_history.ipynb`)
-    - JSON 모드 출력 구조화 (`openai_structured_outputs.ipynb`) 
+  - 멀티턴 대화 구현 (`openai_conversation_history.ipynb`)
   - 스크린샷: 선택한 실습의 코드와 실행 결과
 - **선택 심화 과제**:
+  - JSON 모드 출력 구조화 (`openai_structured_outputs.ipynb`) 
   - 선택하지 않은 다른 실습 진행하기
   - Pydantic 또는 JSON 스키마를 활용한 출력 구조화 심화 실습
 
@@ -151,16 +150,15 @@
 - **선택 심화 과제**:
   - 프롬프트 템플릿 활용하기 (`langchain_prompt_template.ipynb`)
   - 랭체인 구성 요소를 활용한 자신만의 실험 진행
+  - 플로와이즈로 코딩 없이 랭체인 활용해보기 (7.2절)
 
 ### 12일차: 랭체인 활용 (코랩 환경)
 - **학습 범위**: 7.5~7.6절
 - **필수 인증 과제**: 
-  - 다음 중 하나 선택:
-    - LCEL(LangChain Expression Language) 실습 (`LCEL.ipynb`)
-    - 타빌리 검색 도구 활용 (`langchain_tavily.ipynb`)
+  - LCEL(LangChain Expression Language) 실습 (`LCEL.ipynb`)
   - 스크린샷: 선택한 실습의 코드와 실행 결과
 - **선택 심화 과제**:
-  - 선택하지 않은 다른 실습 진행하기
+  - 타빌리 검색 도구 활용 (`langchain_tavily.ipynb`)
   - Runnable 워크플로 체험하기 (`langchain_runnable_workflow.ipynb`)
   - 랭스미스 활용 실습 (`langchain_tavily_langsmith.ipynb`)
 
@@ -172,16 +170,14 @@
 - **선택 심화 과제**:
   - BMI 계산기 앱 만들기 (`bmi.py`)
   - 비밀 정보 안전하게 저장하는 방법 실습 (`tell_secret.py`)
-  - 플로와이즈로 코딩 없이 랭체인 활용해보기 (7.2절)
 
 ### 14일차: 스트림릿 LLM 앱 개발
 - **학습 범위**: 8.2~8.5, 8.8절
 - **필수 인증 과제**: 
   - 다음 중 하나 선택하여 구현:
     - 시험 문제 출제 앱 (`make_question.py`)
-    - 스트림릿 챗봇 (`st_chatbot.py` 또는 `st_echobot.py`)
+    - 스트림릿 챗봇 (`st_chatbot.py`)
     - 이미지 설명 앱 (`image_caption.py`)
-    - 이미지 텍스트 추출/요약 앱 (`document_ocr_summary.py`)
   - 스크린샷: 선택한 앱의 코드와 실행 화면
 - **선택 심화 과제**:
   - 선택하지 않은 다른 앱 중 하나 이상 구현해보기
